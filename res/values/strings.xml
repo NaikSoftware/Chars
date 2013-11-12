@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chars</string>
+    <string name="startSnakeSingle">Змея (одиночная игра)</string>
+    <string name="startSnakeMulti">Змея (вдвоем)</string>
+    <string name="startRacing">Гонка</string>
+    <string name="startTennis">Теннис (вдвоем)</string>
+    <string name="recordBtnLabel">Онлайн рекорды</string>
+    <string name="infoBtnLabel">О приложении</string>
+		
+    <string name="score"> Набрано очков: </string>
+    <string name="time"> За время: </string>
+    <string name="we_not_played">Вы еще не играли</string>
+    <string name="send_ok">Результат успешно отправлен</string>
+    <string name="input_login">Введите логин</string>
+    <string name="input_pass">Введите пароль</string>
+    <string name="invalid_login_or_pass">Логин и пароль должны быть от 3 до 10 символов! Цифры, буквы и знак _</string>
+    <string name="name_exists">Такой логин уже существует, введите другой!</string>
+    <string name="validation_data">Идет регистрация...</string>
+		
+    <string name="send_record">Отправка рекорда</string>
+    <string name="text_send_record">Отправить результат </string>
+    <string name="game_over">Вы проиграли</string>
+    <string name="text_game_over">Нельзя выползать из земли (за экран) и нельзя кусать самого себя. Игра закончена со счетом </string>
+		
+    <string name="info">Игра создана для конкурса на сайте http://annimon.com/ по мотивам класссической игры 
+        <u>Snake</u>.\n Идея: 
+        <i>2012.04.25</i>\n Реализация: 
+        <i>2013.01.07</i>\n 
+        <b>© NaikSoftware</b>
+    </string>
+</resources>

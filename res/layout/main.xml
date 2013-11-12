@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+    <TextView
+        android:id="@+id/btnStartSnakeSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:shadowColor="#FFFF00"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:text="@string/app_name"/>
+        
+    <Button
+        android:id="@+id/btnStartSnakeSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/startSnakeSingle"
+        android:onClick="startSnakeSingle"/>
+    
+    <!--Button
+        android:id="@+id/btnStartSnakeMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/startSnakeMulti"
+        android:onClick="startSnakeMulti"/-->
+    
+    <!--Button
+        android:id="@+id/btnStartRacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/startRacing"
+        android:onClick="startRacing"/-->
+    
+    <!--Button
+        android:id="@+id/btnStartTennis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/startTennis"
+        android:onClick="startTennis"/-->
+		
+	<Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/recordBtnLabel"
+        android:onClick="showRecord"/>
+    
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_btn_selector"
+        android:layout_margin="7dp"
+        android:text="@string/infoBtnLabel"
+        android:onClick="showInfo"/>
+    
+</LinearLayout>
+
